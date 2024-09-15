@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4831d4, #6a5acd);
+}
+
+header{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 15px; 
+}
+
+.logoNomeIcone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.linksHeadr{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-decoration: none;
+}
+.conteudoPrincipal{
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #6a5acd;
+    
+}
+
+#nomeLogo{
+    font-size: 30px;
+    padding-left: 25px;
+    margin-right: 10px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding-left: 100px;
+}
+
+#textoPrincipal{
+    font-size: 45px;
+
+}
+
+#textoSecundario{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.linkGithubProjetos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding-left: 100px;
+    gap: 80px;
+}
+
+.gitHub{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.gitHub p{
+    font-weight: 100;
+    width: 300px;
+    text-align: start;
+}
+
+a{
+    text-decoration: none;
+}
+.projetos p{
+    font-weight: 100;
+    width: 300px;
+    text-align: start;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+    font-size:15px;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+.javascript{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+} 
+
+.node{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+} 
+.react{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sql{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.git i{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
