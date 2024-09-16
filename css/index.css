@@ -21,7 +21,7 @@ body{
 
 header{
     display: flex;
-    width: 95%;
+    width: 90%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +36,12 @@ header{
     justify-content: center;
 }
 
-
+li button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
 
 li{
     list-style: none;
@@ -186,6 +191,8 @@ a{
 .git i{
     font-size: 25px;
 }
+
+
 
 
 
