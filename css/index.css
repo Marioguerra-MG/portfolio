@@ -6,7 +6,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: white;
+    color: #f0f0f0;
 }
 
 body{
@@ -16,22 +16,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(58, 58, 58);
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
 }
 
 .conteudo{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
-    height: 400 px;
-    
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Desfoque do fundo */
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .icone {
     width: 150px; /* Defina a largura do container */
     height: 150px; /* Defina a altura do container */
-    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda */
+    border: 5px solid rgb(11, 86, 155); /* Adiciona uma borda */
     border-radius: 50%; /* Faz o container ser circular */
     overflow: hidden; /* Garante que a imagem não saia do container */
     display: flex;
@@ -95,13 +98,25 @@ a{
     gap: 15px;
 }
 
+.conteudoTasks{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Desfoque do fundo */
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 .tasks{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 20px;
     font-size:15px;
 }
 
